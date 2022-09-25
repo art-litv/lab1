@@ -49,17 +49,12 @@ const PROJECT_ITEMS = [
   {
     name: "📝 Spreadsheets",
     value:
-      "Developed spreadsheets allowing changing the data on website through dashboard (basically CRM-like)",
+      "Developed spreadsheets allowing changing the data through dashboard ",
   },
   {
     name: "🗃️ Kanban board",
     value:
       "Implemented UI and algorithm for saving cards (tickets) order on server (avoided cards index rearragnement, which could be bad in terms of having to do many requests)",
-  },
-  {
-    name: "📈 Dynamic crypto-charts",
-    value:
-      "Developed dynamic crypto-charts through web-socket protocol, optimized the interface to work smoothly according to the frequent rerenders",
   },
 ];
 
@@ -257,7 +252,7 @@ const Home: NextPage = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: "2rem",
+            fontSize: "1.8rem",
             lineHeight: 1.2,
             textAlign: "center",
             maxWidth: 700,
