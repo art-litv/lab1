@@ -23,7 +23,7 @@ const PERSONAL_INFO_ITEMS = [
         Litvinenko Artem Serhiyovich
         <br />
         <span style={{ display: "flex", gap: 8, marginTop: 2 }}>
-          <Image width={20} height={20} alt="UA" src="/images/ua.png" />
+          <Image width={20} height={20} alt="UA" src="images/ua.png" />
           Литвиненко Артем Сергійович
         </span>
       </>
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
           alt="Waving hand"
           width={425}
           height={425}
-          src="/images/waving-hand.webp"
+          src="images/waving-hand.webp"
         />
       </Box>
       <Box
@@ -115,7 +115,7 @@ const Home: NextPage = () => {
           alt="Question mark"
           width={700}
           height={700}
-          src="/images/question-mark.webp"
+          src="images/question-mark.webp"
         />
         <Box>
           <Typography
@@ -178,7 +178,7 @@ const Home: NextPage = () => {
           alt="Star eyes"
           width={350}
           height={350}
-          src="/images/star-struck.webp"
+          src="images/star-struck.webp"
         />
       </Box>
       <Box
@@ -194,7 +194,7 @@ const Home: NextPage = () => {
           alt="Cool"
           width={350}
           height={350}
-          src="/images/sunglasses.webp"
+          src="images/sunglasses.webp"
         />
         <Box sx={{ maxWidth: "50%" }}>
           <Typography
